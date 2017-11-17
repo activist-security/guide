@@ -7,6 +7,44 @@ Nonetheless, the best security is sharing skills with trusted people.
 If you have any corrections, questions or additions, please contact us.
 Our perspective is mostly from western countries, we especially welcome additions about repression and tactics in other places of the world.
 
+Table of Contents
+=================
+* [Introduction](#introduction)
+* [Security Culture](#security-culture)
+* [Physical Security](#physical-security)
+* [Traditional Communication](#traditional-communication)
+  * [Face to Face Communication](#face-to-face-communication)
+  * [Letters](#letters)
+  * [(Mobile) Phones](#mobile-phones)
+     * [Mobile phones themselves are identifiable!](#mobile-phones-themselves-are-identifiable)
+     * [Location Tracking](#location-tracking)
+     * [Room Surveillance / "Silent Calls"](#room-surveillance--silent-calls)
+* [Digital Base Security](#digital-base-security)
+  * [Encryption and Passwords](#encryption-and-passwords)
+  * [Choose Your Computing Device (Integrity)](#choose-your-computing-device-integrity)
+     * [Smartphones](#smartphones)
+     * [Laptops and Desktop Computers](#laptops-and-desktop-computers)
+  * [Storage Encryption (Confidentiality)](#storage-encryption-confidentiality)
+     * [Encrypt Your Home Folder](#encrypt-your-home-folder)
+     * [Encrypt The Whole System](#encrypt-the-whole-system)
+     * [Use an Encrypted Container](#use-an-encrypted-container)
+     * [Android and iOS](#android-and-ios)
+     * [Limitations](#limitations)
+  * [Backup your Data (Availability)](#backup-your-data-availability)
+* [Internet Services](#internet-services)
+  * [A Word about Web Browsers](#a-word-about-web-browsers)
+  * [Anonymity](#anonymity)
+  * [Email](#email)
+  * [Mailing Lists](#mailing-lists)
+  * [Messengers / Chat](#messengers--chat)
+  * [Jabber / XMPP](#jabber--xmpp)
+  * [Voice / Video Chat](#voice--video-chat)
+  * [Blogs, Websites and Social Media](#blogs-websites-and-social-media)
+* [Wrapping it Up](#wrapping-it-up)
+  * [TL;DR:](#tldr)
+  * [Example Setups](#example-setups)
+
+
 Introduction
 ============
 Technological progress has made it next to impossible to defend against a sufficiently powerful attacker (a [scary example](https://www.cs.tau.ac.il/~tromer/mobilesc/)).

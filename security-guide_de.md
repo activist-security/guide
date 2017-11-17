@@ -7,6 +7,44 @@ Der beste Schutz bleibt, Fähigkeiten mit Leuten auszutauschen, denen du vertrau
 Wenn du Korrekturen, Fragen oder Ergänzungen hast, melde dich bei uns.
 Unsere Perspektive ist größenteils aus westlichen Ländern, wir freuen uns besonders über Ergänzungen zu Repression und Taktiken an anderen Orten der Welt.
 
+Inhaltsverzeichnis
+==================
+* [Einleitung](#einleitung)
+* [Sicherheitsbewusstsein](#sicherheitsbewusstsein)
+* [Physische Sicherheit](#physische-sicherheit)
+* [Herkömmliche Kommunikation](#herkömmliche-kommunikation)
+  * [Persönliche Unterhaltungen](#persönliche-unterhaltungen)
+  * [Briefe](#briefe)
+  * [(Mobil-)Telefone](#mobil-telefone)
+     * [Die Mobiltelefone an sich sind identifizierbar!](#die-mobiltelefone-an-sich-sind-identifizierbar)
+     * [Bewegungsprofile](#bewegungsprofile)
+     * [Raumüberwachung/ Stille Anrufe](#raumüberwachung-stille-anrufe)
+* [Digitale Grundsicherheit](#digitale-grundsicherheit)
+  * [Verschlüsselung und Passwörter](#verschlüsselung-und-passwörter)
+  * [Aussuchen deines Gerätes (Integrität)](#aussuchen-deines-gerätes-integrität)
+     * [Smartphones](#smartphones)
+     * [Laptops and Computer](#laptops-and-computer)
+  * [Festplattenverschlüsselung (Geheimhaltung)](#festplattenverschlüsselung-geheimhaltung)
+     * [Verschlüssele deine Eigenen Dateien](#verschlüssele-deine-eigenen-dateien)
+     * [Das ganze System verschlüsseln](#das-ganze-system-verschlüsseln)
+     * [Einen verschlüsselten Container benutzen](#einen-verschlüsselten-container-benutzen)
+     * [Android and iOS](#android-and-ios)
+     * [Einschränkungen](#einschränkungen)
+  * [Datensicherung (Verfügbarkeit)](#datensicherung-verfügbarkeit)
+* [Internetdienste](#internetdienste)
+  * [Ein paar Worte zu Web-Browsern](#ein-paar-worte-zu-web-browsern)
+  * [Anonymität](#anonymität)
+  * [Email](#email)
+  * [Mailinglisten](#mailinglisten)
+  * [Messengers / Chat](#messengers--chat)
+  * [Jabber/XMPP](#jabberxmpp)
+  * [Sprach- / Videochat](#sprach---videochat)
+  * [Blogs, Websites und Social Media](#blogs-websites-und-social-media)
+* [Kurz zusammgefasst](#kurz-zusammgefasst)
+  * [TL;DR:](#tldr)
+  * [Beispiel-Setups](#beispiel-setups)
+
+
 Einleitung
 ==========
 Technologischer Fortschritt hat es nahezu unmöglich gemacht, sich gegen ausreichend starke Angreifer\*innen zu schützen ([hier](https://www.cs.tau.ac.il/~tromer/mobilesc/) ein gruseliges Beispiel).
