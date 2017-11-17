@@ -4,7 +4,7 @@ This guide aims to be a concise overview on information security for anyone in e
 It represents assembled knowledge and best practices from personal experience, conversations with hackers and fellow activists, hacker conferences, and university courses on computer security and cryptography.
 Nonetheless, the best security is sharing skills with trusted people.
 
-If you have any corrections, questions or additions, please contact us.
+If you have any corrections, questions or additions, please [contact us](https://github.com/activist-security/security-guide) (email: activist-security riseup net).
 Our perspective is mostly from western countries, we especially welcome additions about repression and tactics in other places of the world.
 
 Table of Contents

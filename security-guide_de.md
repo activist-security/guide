@@ -4,7 +4,7 @@ Dieses Anleitung zielt darauf ab, einen knappen Überblick zur Informationssiche
 Sie umfasst eine Ansammlung von Wissen und Praktiken, die aus persönlichen Erfahrungen, Gesprächen mit Hackern und anderen Aktivist\*innen, Hacker-Konferenzen und Universitätskursen zu Computersicherheit und Kryptographie entstanden sind.
 Der beste Schutz bleibt, Fähigkeiten mit Leuten auszutauschen, denen du vertraust.
 
-Wenn du Korrekturen, Fragen oder Ergänzungen hast, melde dich bei uns.
+Wenn du Korrekturen, Fragen oder Ergänzungen hast, [melde dich bei uns](https://github.com/activist-security/security-guide) (email: activist-security riseup net).
 Unsere Perspektive ist größenteils aus westlichen Ländern, wir freuen uns besonders über Ergänzungen zu Repression und Taktiken an anderen Orten der Welt.
 
 Inhaltsverzeichnis
