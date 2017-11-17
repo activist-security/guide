@@ -376,8 +376,8 @@ Andererseits geben Social Media - Konzerne gern Daten weiter oder manipulieren e
 Die beste Alternative ist es, ein Blog bei einem der Tech-Kollektive zu eröffnen, oder ein Kollektiv, dem du vertraust, deine Website betreiben zu lassen, wenn du wirklich eine eigene Website benötigst.
 
 
-Kurz zusammgefasst
-==================
+Kurz zusammengefasst
+====================
 Wenn das hier alles deinen Kopf zum Qualmen gebracht hat, ist hier unser Fazit.
 
 TL;DR:
