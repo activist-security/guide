@@ -13,6 +13,11 @@ Feel free to open Issues and contribute via Pull Requests on Github.
 You can also contact us and contribute via email to activist-security riseup net ([GPG-key](0x334537115F8B2A4D.asc)).
 Contributions via email can be credited in the Git commit if desired.
 
+Translating
+-----------
+Please keep translated sentences on the same line to ease future changes and enhancements.
+As we need someone to verify new translations, it may take a while before they are merged into our repository.
+
 Distribution
 ------------
 We welcome distribution but please refer to this website or our email address to enable feedback.
