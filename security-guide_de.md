@@ -131,7 +131,7 @@ Um zeitlich genauere Bewegungsprofile erstellen zu können, benutzen Behörden m
 
 Als letzte Möglichkeit kann die Polizei sogenannte *ISMI-Catcher* benutzen, die vorgeben, sie wären der nächste (also signalstärkste) Sendemast und alle Daten der Telefone aufzeichnen, die sich bei ihnen einbuchen, auch Telefongespräche und SMS ([Quelle](https://en.wikipedia.org/wiki/IMSI-catcher), [einige reale Beispiele](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector/wiki/Unmasked-Spies)).
 
-Die Polizei ist dafür bekannt,  Geodaten für alle möglichen Vorfälle zu nutzen und langfristige Telefonüberwachung von Dutzenden Personen schon bei den lächerlichsten Vorwürfen einzusetzen. IMSI-Catcher wurden sogar schon bei Sitzblockaden gegen Nazi-Aufmärsche eingesetzt. Du solltest also diese Möglichkeit nicht unterschätzen.
+Die Polizei ist dafür bekannt, Geodaten für alle möglichen Vorfälle zu nutzen und langfristige Telefonüberwachung von Dutzenden Personen schon bei den lächerlichsten Vorwürfen einzusetzen. IMSI-Catcher wurden sogar schon bei Sitzblockaden gegen Nazi-Aufmärsche eingesetzt. Du solltest also diese Möglichkeit nicht unterschätzen.
 
 ### Raumüberwachung/ Stille Anrufe
 Es wird kontrovers diskutiert, ob es möglich ist, Handymikrophone anzuzapfen auch wenn grade kein Anruf getätigt wird.
@@ -145,7 +145,10 @@ Smartphones können zusätzlich von bösartigen Apps überwacht werden (siehe *S
 Um sicher zu gehen, ist es ratsam das Handy zuhause zu lassen, wenn du zu vertraulichen Treffen gehst, oder zumindest die Batterie ein paar Kilometer vor der Treffpunkt zu entfernen, da die Teilnehmenden, Ort, Zeit und Dauer eines Treffens leicht zu erfahren wären, wenn 30 Leute gleichzeitig ihre Telefone ausschalten.
 Insbesondere wenn du dich mit einer kleinen Gruppe in einer dicht bewohnten Gegend triffst, könntet ihr die angeschalteten Telefone einfach an einem Ort außer Hörweite aufbewahren (z.B. im Kühlschrank zwei Räume weiter).
 
-Des Weiteren sollte erwáhnt werden, dass Mobiltelefone ihren Betriebsmodus (Bereitschaft, Beschäftigt) übermitteln, und sich aus dem Netz abmelden, wenn sie ordnungsgemäß runtergefahren werden (sodass das ein anderes Muster ergibt, als wenn einfach der Akku rausgerissen wird).
+Des Weiteren sollte erwähnt werden, dass Mobiltelefone ihren Betriebsmodus (Bereitschaft, Beschäftigt) übermitteln, und sich aus dem Netz abmelden, wenn sie ordnungsgemäß runtergefahren werden (sodass das ein anderes Muster ergibt, als wenn einfach der Akku rausgerissen wird).
+
+**Wir empfehlen dir, deine tägliche Routine als Aktivist\*in so aufzubauen, dass du dich nicht auf Mobiltelefone verlassen musst.**
+**Wo sie für aktivistische Zwecke notwendig sind, sollten Mobiltelefone und SIM-Karten regelmäßig ausgewechselt werden, um eine Identifikation durch Orts- oder Kommuniktationsmuster zu vermeiden.**
 
 
 Digitale Grundsicherheit
@@ -162,7 +165,12 @@ Bei genug Möglichkeiten dauert es zu lange, alle Schlüssel auszuprobieren (ein
 Weil sich Menschen riesige Schlüssel auch nicht merken können, benutzen Computer oft eine echt langsame Funktion, um den Schlüssel von einem Passwort abzuleiten.
 Das ist okay wenn jemand das Passwort ein- oder zweimal eingibt, aber erschwert es, alle möglichen Passwörter durchzuprobieren.
 Aber wenn dein Passwort *1312* oder *Revolution* oder so ist, kann es mit einer *Wörterbuchattacke* geknackt werden.
-Daher ist es am Besten, entweder die ersten Buchstaben eines zufälligen Satzes zu verwenden (**D**ieser **S**icherheitsratgeber **i**st **1** **s**uper **P**asswort**!**) oder einfach viele zufällige Worte aneinander zu hängen (*AnanasFernseherVerwirrungSalat*).
+Daher ist es am Besten, eines der folgenden Konzepte zu verwenden, und es mit *zufälligen Mustern* zu kombinieren.
+
+**Schema 1:** die ersten Buchstaben eines zufälligen Satzes zu verwenden (**D**ieser **S**icherheitsratgeber **i**st **1** **s**uper *%3* **P**asswort**!**)
+
+**Schema 2:** einfach viele zufällige Worte aneinander zu hängen (AnanasFernseherVerwirrung*$2*Salat).
+
 Aber auch ein gutes Passwort ist für'n Arsch, wenn die Bullen einen Virus auf deinen Computer gepackt haben, und das Passwort sehen, während du es tippst, was uns zum nächsten Punkt bringt.
 
 
@@ -174,7 +182,7 @@ Laptops und Computer werden mit undurchsichtiger Low-Level Software („*firmwar
 [^1]: Technischer Hintergrund: auf den meisten Intel-basierten Computern läuft eine Software, die das System parallel zum Betriebssystem kontrolliert ([AMT](https://en.wikipedia.org/wiki/Intel_Active_Management_Technology)), die in der Herstellerfirmware "deaktiviert" werden kann, aber die diese Firmware ist proprietäre Software und moderne Intel-Prozessoren starten üblicherweise nur signierte Firmware ([Intel Boot Guard](https://mjg59.dreamwidth.org/33981.html)), sodass du nie in der Lage sein wirst, alternative Firmware wie [Libreboot](https://libreboot.org/) zu verwenden, und selbst wenn du könntest, gäbe es immer noch [Dinge in deinem Computer, zu dem du den Quellcode nicht hast](http://mjg59.livejournal.com/91123.html) ([noch](https://github.com/ptresearch/me-disablement/blob/master/How%20to%20become%20the%20sole%20owner%20of%20your%20PC.pdf) [mehr](https://embedi.com/blog/bypassing-intel-boot-guard) [technischer](https://github.com/flothrone/bootguard) [Hintergrund](https://schd.ws/hosted_files/osseu17/84/Replace%20UEFI%20with%20Linux.pdf) [hier](http://blog.ptsecurity.com/2017/08/disabling-intel-me.html)). Es gab bereits Fälle, in denen Schadsoftware AMT benutzt hat ([Quelle](https://www.bleepingcomputer.com/news/security/malware-uses-obscure-intel-cpu-feature-to-steal-data-and-avoid-firewalls/)).
 
 ### Smartphones
-Das Gleiche gilt für Tablets; und bei Smartphones ist es noch schlimmer, weil sie zusätzlich aus dem Netz kontrolliert werden ([Quelle](http://www.osnews.com/story/27416/The_second_operating_system_hiding_in_every_mobile_phone)).
+Das Gleiche gilt für Tablets; und bei Smartphones oder Tablets mit SIM-Karten-Slot ist es noch schlimmer, weil sie zusätzlich aus dem Netz kontrolliert werden ([Quelle](http://www.osnews.com/story/27416/The_second_operating_system_hiding_in_every_mobile_phone)) und diese kontrolle dazu missbraucht werden könnte, auf persönliche Daten auf dem Gerät zuzugreifen ([source](https://www.tomsguide.com/us/backdoor-samsung-galaxy-devices,news-18470.html)).
 Dazu kommt, dass Smartphones komplexe Rechner sind, die oft von den Hersteller\*innen keinen Sicherheitsupdates bekommen, und so leichte Ziele für Angriffe sind ([Quelle](http://www.pcworld.com/article/2953052/security/most-android-phones-can-be-hacked-with-a-simple-mms-message-or-multimedia-file.html)).
 Neben hinterhältigem Attacken aus dem Netz, werden auch bösartige Apps für die Überwachung eingesetzt ([Quelle](http://www.wthr.com/article/tapping-your-cell-phone)) und die Menge an Umgebungssensoren macht Smartphones zu prima Spionagegeräten, selbst wenn du das Mikrophone rausreißen würdest (z.B. [1](https://mjg59.dreamwidth.org/46952.html),[2](https://crypto.stanford.edu/gyrophone/files/gyromic.pdf)).
 Außerdem sind Smartphones von Grund auf dafür gemacht, massenhaft Daten über Leute zusammenzutragen (Gruselbeispiel: [Artikel](https://www.bleepingcomputer.com/news/security/234-android-applications-are-currently-using-ultrasonic-beacons-to-track-users/), [paper](http://christian.wressnegger.info/content/projects/sidechannels/2017-eurosp.pdf)) - Daten, die öfter für Behörden (mit oder ohne Anfragen) einsehbar sind, als nicht.
@@ -187,8 +195,11 @@ Apples iOS hat viele eingebaute Sicherheitsfunktionen, aber so praktische Dinge 
 
 [^2]: [Diese Sicherheitsanalyse](https://bits-please.blogspot.de/2016/06/extracting-qualcomms-keymaster-keys.html) zeigt recht gut dass auch ohne böse Absichten Mobilgeräte einfach nicht besonders sicher sind.
 
-Open Source - Varianten von Android (wie *[Replicant](http://www.replicant.us/)*, *[Copperhead OS](https://github.com/copperheados/)* oder, gebräuchlicher, [Lineage OS](https://lineageos.org/)) bieten ein Google-freies Android, mit dem Nachteil, viele praktische Apps zu verlieren, während die generellen Nachteile von Smartphones weiterhin bestehen.
-Falls nötig, ist unser Rat, am besten ein Tablet zu benutzen (weil es nicht aus dem Mobilfunknetz kontrolliert werden kann), oder falls nötig ein Smartphone, jeweils mit einer der Open Source - Varianten von Android.
+Open Source - Varianten von Android (wie *[Replicant](http://www.replicant.us/)*, *[Copperhead OS](https://github.com/copperheados/)* oder, gebräuchlicher, *[Lineage OS](https://lineageos.org/))* bieten ein Google-freies Android, mit dem Nachteil, viele praktische Apps zu verlieren, während die generellen Nachteile von Smartphones weiterhin bestehen.
+Sie erfordern üblicherweise das Entsperren des *boot loaders* des Gerätes, damit es überhaupt möglich ist, ein alternatives Android darauf zu installieren, was dann z.B. die Polizei auch tun könnte, wenn sie für ein paar Stunden Zugriff auf dein Gerät hat ([Diskussion](https://www.reddit.com/r/LineageOS/comments/66o5iv/questions_about_security/)).
+Wo die alternativen Android-Varianten manchmal Sicherheitsupdates für alte Geräte anbieten, wo der Hersteller das nicht tut, sind alternative Android *ROMs* noch dazu in Wirklichkeit oft schlecht mit Updates versorgt (Diskussion [1](https://www.reddit.com/r/Android/comments/6g9imm/the_issue_of_security_in_lineageos/), [2](https://security.stackexchange.com/questions/162798/is-lineageos-more-secure-than-android-vanilla); [Übersicht für LinageOS](https://cve.lineageos.org/devices)).
+
+Falls nötig, ist unser Rat, am besten ein Tablet **ohne SIM-Karten-Slot** zu benutzen (weil es nicht aus dem Mobilfunknetz kontrolliert werden kann), oder falls nötig ein Smartphone, welches von Copperhead OS, oder von Lineage OS gut unterstützt wird.
 
 ### Laptops and Computer
 So viel wie möglich freie Open Source - Software auf einem Laptop oder Computer laufen zu lassen, gibt dir eine Menge Kontrolle zurück.
@@ -198,7 +209,10 @@ Bei *Linux* oder anderen Open Source - Alternative ist der Quellcode für alle o
 Das schließt Microsoft Office Dokumente ein, da sie für diverse Angriffe benutzt werden können ([Quelle](https://www.thedailybeast.com/this-is-how-cops-trick-dark-web-drug-dealers-into-unmasking-themselves)).
 Antiviren-Software bietet nur überaus lückenhaften Schutz, aber ist selbst angreifbar ([Quelle](https://theintercept.com/2015/06/22/nsa-gchq-targeted-kaspersky/).
 
-Es gibt viele verschiedene Bündel des Linux Kerns mit diverser Open Source Software, die Distributionen genannt werden, und von denen wir im Speziellen zwei empfehlen:
+Es gibt viele verschiedene Bündel des Linux Kerns mit diverser Open Source Software, die Distributionen genannt werden.
+Wenn der Computer für vertrauliche aktivistische Arbeit genutzt wird, kann [Tails](https://tails.boum.org/), eine Distribution, die einen Fokus auf Sicherheit und Anonymität legt, neben einem anderen Betriebssystem, z.B. einer anderen Linux-Variante, installiert werden.
+
+Für hauptsächlich persönliche Nutzung sind die folgenden beiden Distributionen weniger auf Sicherheit angepasst, aber relativ einfach zu installieren, zu nutzen und zu aktualisieren:
 
 - *[Linux Mint](http://www.linuxmint.com/)* bietet eine der schmerzfreisten Wege, ein Open Source System mit vielen, wahrscheinlich bekannten, Anwendungen wie Firefox, VLC Player, LibreOffice etc. zu bekommen.
 Es gibt verschiedene Oberflächen, von denen *XFCE* schlicht und schnell ist, und auch auf älteren Geräten noch gut läuft, und *Cinnamon* ein wenig gehobener.
@@ -239,7 +253,7 @@ Das bedeutet, dass nur ein sehr kleiner Teil auf deiner Festplatte unverschlüss
 	- Du brauchst bloß ein sehr starkes Passwort einmal beim Hochfahren und dann reicht ein Kürzeres für deine Bildschirmsperre.
 - Nachteile:
 	- Du musst deinen Computer starten, das Passwort eingeben und erst dann fährt der Rechner weiter hoch.
-	- Du musst dir zwei Passwörter merken und dein Passwort für die Festplattenverschlüsselung ist schwieriger zu ändern.
+	- Du musst dir zwei Passwörter merken.
 - Anleitung: Während der Linuxinstallation bei Installationstyp „Verschlüssele die neue (Linux Mint/Ubuntu)-Installation für mehr Sicherheit“.
 
 ### Einen verschlüsselten Container benutzen
@@ -307,7 +321,7 @@ Auf Apple-Geräten bietet der [Onion browser](https://mike.tig.as/onionbrowser/)
 
 Die zweite Methode ist einfach das Nutzen öffentlicher Wlans an Orten, an denen es keine Kameraüberwachung gibt.
 Unglücklicherweise hat das Wlan deines Computer eine einzigartige *MAC* Adresse.
-Diese kann durch Software geändert werden, falls das Wlan sie speichern sollte (wie es einige Firmenportale machen, um sicherzustellen, das du die AGB schon zur Kenntniss genommen hast oder um zu gucken, ob du deine Stunde freies Internet schon aufgebraucht hast), aber am Besten benutzt du diese Methode nur, um für zusätzliche Sicherheit bei der Nutzung von TOR.
+Diese kann durch Software geändert werden, falls das Wlan sie speichern sollte (wie es einige Firmenportale machen, um sicherzustellen, das du die AGB schon zur Kenntniss genommen hast oder um zu gucken, ob du deine Stunde freies Internet schon aufgebraucht hast), aber am Besten benutzt du diese Methode nur, um für zusätzliche Sicherheit bei der Nutzung von TOR (idealerweise mit Tails, welches eine zufällige MAC-Adresse übertragen wird).
 
 Email
 -----
@@ -320,7 +334,7 @@ Daher hängt die PGP-Sicherheit stark von der sicheren Übergabe der Schlüssel 
 
 Der “Surveillance Self-Defence"-Ratgeber der Electronic Frontier Foundations hat eine ziemlich gute PGP-Anleitung ([Linux](https://ssd.eff.org/en/module/how-use-pgp-linux), [Windows](https://ssd.eff.org/en/module/how-use-pgp-windows), [Mac OS X](https://ssd.eff.org/en/module/how-use-pgp-mac-os-x)).
 
-Du solltest deine Aktivist\*innen-Mailadresse am besten gar nicht auf Mobilgeräten nutzen, aber wenn unbedingt nötig, verwende [K9-Mail](https://k9mail.github.io/) mit [OpenKeychain](https://www.openkeychain.org/) auf Android.
+Du solltest deine Aktivist\*innen-Mailadresse am besten gar nicht auf Mobilgeräten nutzen, aber wenn unbedingt nötig, **stell sicher dass deine Kommunikationspartner\*innen dem zustimmen** und verwende [K9-Mail](https://k9mail.github.io/) mit [OpenKeychain](https://www.openkeychain.org/) auf Android.
 
 Mailinglisten
 -------------
@@ -368,7 +382,7 @@ Auch wenn sie technisch gesehen alle Kommunikationsmuster einsehen können (nich
  Sobald man sich mittels einer dieser Apps registriert hat, kann eine Desktopanwendung mit der App verknüpft werden, von wo an Signal auf einem Laptop oder Computer auch ohne ein Mobilgerät benutzt werden kann.
  Auf Android gibt es Signal auch ohne Google Play via [https://signal.org/android/apk/](https://signal.org/android/apk/), aber Signals Erfinder hat alternative Clients explizit aufgefordert, das Netzwerk zu verlassen ([Quelle](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165)).
 Leute finden ausgefuchste Wege, um die Notwendigkeit einer Telefonnummer zu umgehen ([Anleitung](https://yawnbox.com/index.php/2015/03/14/create-an-anonymous-textsecure-and-redphone-phone-number/)).
-Alles in Allem ist Signal eine gute Wahl für Menschen, die ohnehin Android- oder Apple-Smartphones benutzen, aber es gibt bessere Werkzeuge für Menschen, die mehr Sicherheit benötigen, als die Mobilplattformen zu bieten haben.
+Alles in Allem ist Signal eine gute Wahl für Menschen, die ohnehin Android- oder Apple-Smartphones benutzen, aber **wir würden eine auf Mobiltelefonen und -Nummern basierte Plattform nicht als interne Gruppeninfrastruktur empfehlen.**
 
 
 Jabber/XMPP
@@ -401,8 +415,8 @@ Wenn mensch mit den Nachteilen leben kann, ist Signal (siehe oben) die praktikab
 
 Auf Laptops und Computern ist **[Tox](https://tox.chat)**, solange du es zum Laufen bringen kannst, eine ziemlich faszinierende, sehr sichere und anspruchslose Alternative.
 Eher traditionell bietet **[Jitsi](https://jitsi.org/)**  verschlüsselte Anrufe mittels entweder *SIP* oder noch besser auch Jabber/XMPP (siehe oben) - Account.
-**[Ring](https://ring.cx/en)**  ist eine weitere vielversprechende Alternative, die wir aber noch nicht getestet haben  und **[Wire](https://wire.com/)** ist zwar auch zentralisisch aufgebaut, aber scheint eine gute Alternative zu Signal zu sein, die keine Telefonnummer benötigt und ziemlich selbstbewusste [Zusicherungen](https://wire.com/privacy/) an Privatspäre macht.
-Einige Aktivisten nutzen **[Mumble](https://mumble.info)**, das eine gute Lösung für Leute zu sein scheint, die einen eigenen Server betreiben können, aber wir haben es selbst noch nicht benutzt.
+**[Ring](https://ring.cx/en)**  ist eine weitere vielversprechende Alternative, die wir aber noch nicht getestet haben.
+**[Mumble](https://mumble.info)** ist eine gute Lösung für Leute, die einen eigenen Server betreiben können und auch über das [Systemli Tech-Kollektiv]( https://www.systemli.org/service/mumble.html) verfügbar.
 
 Ein mehr Ad-hoc orientiete Methode involviert eine Technik namens *WebRTC* und benötigt nur einen modernen Web-Browser, wie Firefox oder Chrome, mit dem Nachteil, dass man einer zentralen Website vertraut, nicht bösartig zu sein (und die Verbindung zu diesem Netzwerk nicht manipuliert).
 **[pavala.tv](https://palava.tv/)** und **[meet.jit.si](https://meet.jit.si/)** sind zwei Open Source - basierte Lösungen dafür.
@@ -431,4 +445,4 @@ TL;DR:
 Beispiel-Setups
 ---------------
  * **Laptop / Desktopcomputer:** Tails für ernsthafte Anonymität, ein verschlüsseltes Linux Mint mit TOR Browser, Thunderbird+Enigmail für verschlüsselte Email, Veracrypt um externe Medien zu verschlüsseln, Gaijim für Jabber mit OMEMO-Verschlüsselung, Signal Desktop falls nötig.
- * **Smartphone:** Lineage OS auf einem unterstützten Android-Smartphone mit verschlüsselten Daten, Orbot für TOR, Conversations für Jabber mit OMEMO falls nötig und Signal als Messenger app.
+ * **Wenn's sein muss, Smartphone für persönliche Nutzung:** ein gut von Copperhead OS oder Lineage OS unterstütztes Android-Smartphone mit verschlüsselten Daten, Orbot für TOR, Conversations für Jabber mit OMEMO falls nötig und Signal als Messenger app.

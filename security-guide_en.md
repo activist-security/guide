@@ -147,6 +147,9 @@ Especially when meeting with small groups in densely populated areas, it might b
 
 It should be noted that mobile phones transmit power status (idle, running) during operation and send goodbye messages to the network when powered off properly (so that creates a different pattern than just ripping out the battery).
 
+**We encourage you to build your daily activist routine without even counting on using mobile phones.**
+**Where needed for activist purposes, mobile phones and SIM cards should be swapped regularly to avoid identification by location or communication patterns.**
+
 
 Digital Base Security
 =====================
@@ -162,7 +165,12 @@ With enough possibilities, it takes too long to try all the keys (a *brute force
 Because humans can't remember huge keys either, computers often use some really slow function to derive the key from a password.
 This works fine if someone enters the password once or twice, but makes it hard to try all possible passwords.
 But if your password is *1312* or *revolution* or similar, it may be broken by a *dictonary attack*.
-Therefore, it's best to either use the first words of a random sentence (**T**his **s**ecurity **g**uide **m**akes **f**or **1** **c**ool **p**assword**!**) or simply put a lot of random words together (*pineappletelevisionconfusionsalat*).
+Therefore, it's best to use one of the following schemes and combine them with *random symbols* for extra security.
+
+**Scheme 1:** use the first words of a random sentence (**T**his **s**ecurity **g**uide **m**akes **f**or **1** **c**ool *%3* **p**assword**!**).
+
+**Scheme 2:** simply put a lot of random words together (pineappletelevisionconfusion*$2*salat).
+
 Even a good password is for nothing if the cops have put a virus on your computer and get the password as you type, which brings us to the next point.
 
 
@@ -174,7 +182,7 @@ Laptops and desktop computers come with obscure low level software ("*firmware*"
 [^1]: Technical background: most Intel-based computers run a software that can control the system remotely in parallel to the normal Operating System ([AMT](https://en.wikipedia.org/wiki/Intel_Active_Management_Technology)), which can be "disabled" in the manufacturer's firmware but that is closed source, and modern Intel Processors usually only boot signed firmware ([Intel Boot Guard](https://mjg59.dreamwidth.org/33981.html)), so you will never be able to use alternative firmware like [Libreboot](https://libreboot.org/), and even if you could, there would still be [things in your computer that you do not have the source code for](http://mjg59.livejournal.com/91123.html) ([even](https://github.com/ptresearch/me-disablement/blob/master/How%20to%20become%20the%20sole%20owner%20of%20your%20PC.pdf) [more](https://embedi.com/blog/bypassing-intel-boot-guard) [technical](https://github.com/flothrone/bootguard) [background](https://schd.ws/hosted_files/osseu17/84/Replace%20UEFI%20with%20Linux.pdf) [here](http://blog.ptsecurity.com/2017/08/disabling-intel-me.html)). There have been known cases of malware using AMT ([source](https://www.bleepingcomputer.com/news/security/malware-uses-obscure-intel-cpu-feature-to-steal-data-and-avoid-firewalls/)). 
 
 ### Smartphones
-The same is true for tablets; and smartphones are even worse, because they are always also controlled from the mobile network ([source](http://www.osnews.com/story/27416/The_second_operating_system_hiding_in_every_mobile_phone)).
+The same is true for tablets; and smartphones or tablets with SIM slots are even worse, because they have closed components that are always also controlled from the mobile network ([source](http://www.osnews.com/story/27416/The_second_operating_system_hiding_in_every_mobile_phone)) and this control could be abused to access personal data on the device ([source](https://www.tomsguide.com/us/backdoor-samsung-galaxy-devices,news-18470.html)).
 On top of that, smartphones are complex computers which often are not treated to security updates by their manufacturers, making them an easy target for attacks ([source](http://www.pcworld.com/article/2953052/security/most-android-phones-can-be-hacked-with-a-simple-mms-message-or-multimedia-file.html)).
 Besides sneaky network attacks, malicious apps are used for surveillance ([source](http://www.wthr.com/article/tapping-your-cell-phone)) and the wealth of sensors for their environment makes smartphones excellent spying devices, even if you ripped out the microphone (e.g. [1](https://mjg59.dreamwidth.org/46952.html),[2](https://crypto.stanford.edu/gyrophone/files/gyromic.pdf)).
 Moreover, they are designed to collect crazy amounts of information on people by default (scary example: [article](https://www.bleepingcomputer.com/news/security/234-android-applications-are-currently-using-ultrasonic-beacons-to-track-users/), [paper](http://christian.wressnegger.info/content/projects/sidechannels/2017-eurosp.pdf)) - information that is more often than not readily available to state agencies with or without request.
@@ -187,8 +195,11 @@ Apple's iOS has many built-in security features, but Apple's convenience feature
 
 [^2]: [This security analysis](https://bits-please.blogspot.de/2016/06/extracting-qualcomms-keymaster-keys.html) illustrates quite well that even without any malicious intend, mobile devices as commonly used are just not very secure.
 
-Open source versions of Android (like *[Replicant](http://www.replicant.us/)*, *[Copperhead OS](https://github.com/copperheados/)* or, more commonly, [Lineage OS](https://lineageos.org/)) allow for a Google-free Android, at the cost of loosing many convenient apps, and the general problems with smartphones still apply.
-If necessary, our advice is to best use a tablet (because it can't be controlled from the mobile network), or if you must a smartphone, with one of the open source variants of Android.
+Open source versions of Android (like *[Replicant](http://www.replicant.us/)*, *[Copperhead OS](https://github.com/copperheados/)* or, more commonly, *[Lineage OS](https://lineageos.org/))* allow for a Google-free Android, at the cost of loosing many convenient apps, and the general problems with smartphones still apply.
+They usually require unlocking the *boot loader* of the device so that it is even possible to install an alternative Android on it, which then is something that e.g. the police could also do if they have access to your device for a few hours ([discussion](https://www.reddit.com/r/LineageOS/comments/66o5iv/questions_about_security/)).
+On top of that, whilst the alternative Android variants may provide security updates for old devices where the vendor does not, alternative Android *ROMs* for many devices are actually poorly updated (discussion [1](https://www.reddit.com/r/Android/comments/6g9imm/the_issue_of_security_in_lineageos/), [2](https://security.stackexchange.com/questions/162798/is-lineageos-more-secure-than-android-vanilla); [overview for LinageOS](https://cve.lineageos.org/devices)).
+
+If necessary, our advice is to best use a tablet **without SIM card slot** (because it can't be controlled from the mobile network), or if you must a smartphone supported by Copperhead OS or well supported by Lineage OS.
 
 ### Laptops and Desktop Computers
 Running as much *Free and Open Source Software* as possible on your laptop or desktop computer gives you a good deal of control back.
@@ -198,7 +209,10 @@ As a side node, the best protection against computer viruses is simply to not do
 This includes Microsoft Office documents that can be abused for various attacks ([source](https://www.thedailybeast.com/this-is-how-cops-trick-dark-web-drug-dealers-into-unmasking-themselves)).
 Antivirus software only offers patchy protection but is itself vulnerable to attacks ([source](https://theintercept.com/2015/06/22/nsa-gchq-targeted-kaspersky/).
 
-There are many different bundles of the Linux core with various open source software called *distributions*, of which we recommend two specifically:
+There are many different bundles of the Linux core with various open source software called *distributions*.
+If the computer is used for sensitive activist work, [Tails](https://tails.boum.org/) is a distribution with a focus on security and anonymity that can be installed alongside another operating system, e.g. another variant of Linux.
+
+For mainly personal use, the following two distributions are less geared towards security, but are relatively easy to install, use and update:
 
 - *[Linux Mint](http://www.linuxmint.com/)* offers one of the most painless ways to get an open system with many probably familiar software like Firefox, VLC player, LibreOffice etc.
 They offer different *Editions* of which  *XFCE* is a simple, fast desktop that still runs well on old computers and *Cinnamon* is a bit more fancy.
@@ -239,7 +253,7 @@ This means that only a tiny part of your hard drive remains unencrypted and ever
 	- You can use a long strong password just for starting the computer and a shorter one for your screen lock.
 - Disadvantages:
 	- You need to start the computer, put in the disk encryption password and then wait for it to come up.
-	- You need to remember two passwords, and the disk encryption password is harder to change.
+	- You need to remember two passwords.
 - How to: during Linux installation, at *Installation type* select "Encrypt the new (Linux Mint/Ubuntu) installation for security".
 
 ### Use an Encrypted Container
@@ -307,7 +321,7 @@ On Apple devices, [Onion browser](https://mike.tig.as/onionbrowser/) offers a at
 
 The second method is simply to use public wifi in places where there are no surveillance cameras.
 Unfortunately, your computer's wifi has a unique *MAC* address.
-It can be changed with software in case the wifi stores them (some corporate portals will, to tell if you already acknowledge the Terms of Service, or used up your hour of free Internet), but it is advisable to use this method only for extra security when using TOR.
+It can be changed with software in case the wifi stores them (some corporate portals will, to tell if you already acknowledge the Terms of Service, or used up your hour of free Internet), but it is advisable to use this method only for extra security when using TOR (ideally using Tails, which will transmit random MAC address).
 
 Email
 -----
@@ -320,7 +334,7 @@ Therefore PGP's security depends on a safe key exchange; so make sure you got th
 
 The Electronic Frontier Foundation's Surveillance Self-Defence guide has a pretty good howto for using PGP ([Linux](https://ssd.eff.org/en/module/how-use-pgp-linux), [Windows](https://ssd.eff.org/en/module/how-use-pgp-windows), [Mac OS X](https://ssd.eff.org/en/module/how-use-pgp-mac-os-x)).
 
-You shouldn't use your activist email address on mobile devices at all, but if you must, use [K9-Mail](https://k9mail.github.io/) with [OpenKeychain](https://www.openkeychain.org/) on Android.
+You shouldn't use your activist email address on mobile devices at all, but if you must, **make sure your communication partners consent to that** and use [K9-Mail](https://k9mail.github.io/) with [OpenKeychain](https://www.openkeychain.org/) on Android.
 
 Mailing Lists
 -------------
@@ -368,7 +382,7 @@ Signal is available for iOS and Android.
 Once one of these apps is registered, a Desktop software can be linked to the app, after which Signal can be used on a laptop or desktop computer without a mobile device.
 On Android, Signal is also available outside Google Play via [https://signal.org/android/apk/](https://signal.org/android/apk/), but Signal's inventor actively asks alternative software to leave the network ([source](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165)).
 People find elaborate ways to get around the need for a phone number ([guide](https://yawnbox.com/index.php/2015/03/14/create-an-anonymous-textsecure-and-redphone-phone-number/)).
-Altogether this makes Signal a good choice for people who use Android or Apple smartphones anyway, but better tools exist for people who need more security than mobile platforms provide.
+Altogether this makes Signal a good choice for people who use Android or Apple smartphones anyway, but **we wouldn't recommend using a mobile phone and number based plattform for internal group infrastructure.**
 
 
 Jabber / XMPP
@@ -388,8 +402,8 @@ However, some caveats apply:
 Some clients support *OMEMO* as a newer alternative to OTR, which can also encrypt group chats and supports asynchronous communication, similar to the popular mobile messengers.
 With [Conversations](https://conversations.im) for Android and [ChatSecure](https://chatsecure.org/) for iOS, Jabber can be an alternative to these messengers that evades central control.
 Unfortunately, not all Jabber servers support stashing your messages when you're offline (see [here](https://gultsch.de/compliance_ranked.html) for an overview).
-Also, chat software for laptops or desktop computers has been a bit slow to pick up OMEMO.
-As an OMEMO-capable alternative to Pidgin (which is usually featured in the Jabber guides), we recommend installing [Gajim](https://gajim.org/).
+Also, chat software for laptops or desktop computers has been a bit slow to pick up OMEMO. so for the foreseeable future, expect to use OTR with most people.
+As an OMEMO-capable alternative to Pidgin (which is usually featured in the Jabber guides), we recommend installing [Gajim](https://gajim.org/)
 
 [einfachJabber.de](http://www.einfachjabber.de/) has an elaborate German introduction and guides for all kinds of devices and operating systems.
 English language tutorials can be found at the EFF's Surveillance Self-Defence guide ([Linux](https://ssd.eff.org/en/module/how-use-otr-linux), [Mac OS](https://ssd.eff.org/en/module/how-use-tor-mac-os-x), [Windows](https://ssd.eff.org/en/module/how-use-tor-windows)).
@@ -401,8 +415,8 @@ If you can live with the disadvantages, Signal (see above) seems to be the most 
 
 On laptop / desktop computers, if you can get it to work, **[Tox](https://tox.chat)** is a pretty amazing, high security and low effort alternative.
 More traditionally, **[Jitsi](https://jitsi.org/)** enables encrypted calls via either a *SIP* or better yet, a Jabber/XMPP (see above) account.
-**[Ring](https://ring.cx/en)** seems to be another promising alternative (that we haven't tried yet), and **[Wire](https://wire.com/)**, while also centralized, seems to offer an alternative to Signal that does not need phone numbers and makes some bold [privacy claims](https://wire.com/privacy/).
-Fellow activists use **[Mumble](https://mumble.info)**, which seems a good solution if you can run your own server, but we haven't used it ourselves yet.
+**[Ring](https://ring.cx/en)** seems to be another promising alternative (that we haven't tried yet).
+**[Mumble](https://mumble.info)** is a good solution if you can run your own server and also available via the [Systemli tech collective](https://www.systemli.org/service/mumble.html).
 
 A more ad-hoc method involves a technology called *WebRTC* just requires a modern web browser like Firefox or Chrome, with the caveat of trusting some central web site to not be malicous (and the connection to that network not to be manipulated).
 **[pavala.tv](https://palava.tv/)** and **[meet.jit.si](https://meet.jit.si/)** are two open source based web services for that.
@@ -431,4 +445,4 @@ TL;DR:
 Example Setups
 --------------
  * **Laptop / Desktop:** Tails for serious anonymity, encrypted Linux Mint with TOR Browser, Thunderbird+Enigmail for encrypted email, Veracrypt to encrypt external media, Gaijim for Jabber with OMEMO encryption, Signal Desktop if needed.
- * **Smartphone:** Lineage OS on a supported Android smartphone with data encryption, Orbot for TOR, Conversations for Jabber with OMEMO if necessary and Signal as a messenger app.
+ * **If you must, Smartphone for personal use:** an Android smartphone supported by Copperhead OS or well supported by Lineage OS, with data encryption, Orbot for TOR, Conversations for Jabber with OMEMO if necessary and Signal as a messenger app.
