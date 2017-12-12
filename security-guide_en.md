@@ -148,7 +148,8 @@ Especially when meeting with small groups in densely populated areas, it might b
 It should be noted that mobile phones transmit power status (idle, running) during operation and send goodbye messages to the network when powered off properly (so that creates a different pattern than just ripping out the battery).
 
 **We encourage you to build your daily activist routine without even counting on using mobile phones.**
-**Where needed for activist purposes, mobile phones and SIM cards should be swapped regularly to avoid identification by location or communication patterns.**
+**Mobile phones and SIM cards should be destroyed after the action.**
+**where needed for longer-term activist infrastructure, phones and SIM cards in the internal network should be swapped regularly (e.g. every six months) all at once to avoid identification by location or communication patterns.**
 
 
 Digital Base Security
@@ -165,7 +166,9 @@ With enough possibilities, it takes too long to try all the keys (a *brute force
 Because humans can't remember huge keys either, computers often use some really slow function to derive the key from a password.
 This works fine if someone enters the password once or twice, but makes it hard to try all possible passwords.
 But if your password is *1312* or *revolution* or similar, it may be broken by a *dictonary attack*.
-Therefore, it's best to use one of the following schemes and combine them with *random symbols* for extra security.
+One way is to generate a completely random password ([howto](https://ssd.eff.org/en/node/23/#0)), write it down on paper, memorize it and destroy the paper after a few days.
+
+If this sounds to complicated or you are afraid of forgetting the password after a vacation or similar, it's best to use one of the following schemes and combine them with *random symbols* for extra security.
 
 **Scheme 1:** use the first words of a random sentence (**T**his **s**ecurity **g**uide **m**akes **f**or **1** **c**ool *%3* **p**assword**!**).
 
@@ -214,11 +217,12 @@ If the computer is used for sensitive activist work, [Tails](https://tails.boum.
 
 For mainly personal use, the following two distributions are less geared towards security, but are relatively easy to install, use and update:
 
-- *[Linux Mint](http://www.linuxmint.com/)* offers one of the most painless ways to get an open system with many probably familiar software like Firefox, VLC player, LibreOffice etc.
-They offer different *Editions* of which  *XFCE* is a simple, fast desktop that still runs well on old computers and *Cinnamon* is a bit more fancy.
 - *[Ubuntu Linux](http://www.ubuntu.com/desktop)* is the base for Linux Mint and a company effort to build a user friendly version of Linux.
 It is itself based on one of the oldest community distributions, *[Debian](http://www.debian.org)*.
 While the company behind it decides its direction, it still has a very strong community around it.
+- *[Linux Mint](http://www.linuxmint.com/)* offers one of the most painless ways to get an open system with many probably familiar software like Firefox, VLC player, LibreOffice etc.
+However, their security policies have attracted some controversies ([source](https://lwn.net/Articles/676664/)) and in the update manager you should select *Optimize stability and security* and regularly select *all* updates (also level 4) in the update manager to be safe.
+They offer different *Editions* of which  *XFCE* is a simple, fast desktop that still runs well on old computers and *Cinnamon* is a bit more fancy.
 
 - *Installation:* Make sure to save all your important data on some  ***external*** medium (hard drive or stick) and get support from a computer geek if you can.
 It is usually possible to install Linux next to Windows (*dual boot*), but **expect the installation to overwrite everything**.
@@ -229,7 +233,7 @@ Storage Encryption (Confidentiality)
 ------------------------------------
 Encrypt your computer!
 All further advices for software and communication means are not safe if your computer is not safe.
-**The encryption is intended against offline attacks only, if the police captures your computer unlocked, they will just copy your data.**
+**The encryption is intended against attacks on switched off computers only, if the police captures your computer unlocked, they will just copy your data.**
 A screen lock or suspend mode with a decent password is better than nothing, but the device should be powered down whenever possible.
 **If the police knocks your door, first run to your computer and press the power button until it switches off.**
 
@@ -271,7 +275,7 @@ An external drive or a very big file ("container") is encrypted and you need to 
 - How to: get [Veracrypt](https://veracrypt.codeplex.com/releases) and follow the [howto](https://veracrypt.codeplex.com/wikipage?title=Beginner%27s%20Tutorial).
 
 ### Android and iOS
-- [Howto for Android](http://www.howtogeek.com/141953/how-to-encrypt-your-android-phone-and-why-you-might-want-to/)
+- **Android:** go to *Settings -> Security* and tap *Encrypt Phone* [more elaborate howto](http://www.howtogeek.com/141953/how-to-encrypt-your-android-phone-and-why-you-might-want-to/)
 
 ### Limitations
 Your password prompt must come from somewhere and so there's always unencrypted data on your device, data that can be messed with (e.g. replacing your Linux' password prompt with one that sends the password to the police).
@@ -402,8 +406,8 @@ However, some caveats apply:
 Some clients support *OMEMO* as a newer alternative to OTR, which can also encrypt group chats and supports asynchronous communication, similar to the popular mobile messengers.
 With [Conversations](https://conversations.im) for Android and [ChatSecure](https://chatsecure.org/) for iOS, Jabber can be an alternative to these messengers that evades central control.
 Unfortunately, not all Jabber servers support stashing your messages when you're offline (see [here](https://gultsch.de/compliance_ranked.html) for an overview).
-Also, chat software for laptops or desktop computers has been a bit slow to pick up OMEMO. so for the foreseeable future, expect to use OTR with most people.
-As an OMEMO-capable alternative to Pidgin (which is usually featured in the Jabber guides), we recommend installing [Gajim](https://gajim.org/)
+Also, chat software for laptops or desktop computers has been a bit slow to pick up OMEMO. so for the foreseeable future, we recommend sticking to OTR.
+As an alternative to Pidgin (which is usually featured in the Jabber guides), we recommend installing [Gajim](https://gajim.org/)
 
 [einfachJabber.de](http://www.einfachjabber.de/) has an elaborate German introduction and guides for all kinds of devices and operating systems.
 English language tutorials can be found at the EFF's Surveillance Self-Defence guide ([Linux](https://ssd.eff.org/en/module/how-use-otr-linux), [Mac OS](https://ssd.eff.org/en/module/how-use-tor-mac-os-x), [Windows](https://ssd.eff.org/en/module/how-use-tor-windows)).

@@ -148,7 +148,8 @@ Insbesondere wenn du dich mit einer kleinen Gruppe in einer dicht bewohnten Gege
 Des Weiteren sollte erwähnt werden, dass Mobiltelefone ihren Betriebsmodus (Bereitschaft, Beschäftigt) übermitteln, und sich aus dem Netz abmelden, wenn sie ordnungsgemäß runtergefahren werden (sodass das ein anderes Muster ergibt, als wenn einfach der Akku rausgerissen wird).
 
 **Wir empfehlen dir, deine tägliche Routine als Aktivist\*in so aufzubauen, dass du dich nicht auf Mobiltelefone verlassen musst.**
-**Wo sie für aktivistische Zwecke notwendig sind, sollten Mobiltelefone und SIM-Karten regelmäßig ausgewechselt werden, um eine Identifikation durch Orts- oder Kommuniktationsmuster zu vermeiden.**
+**Mobiltelefone und SIM-Karten sollten nach der Aktion zerstört werden.**
+**Wo sie für langfristigeere aktivistische Infrastruktur notwendig sind, sollten Mobiltelefone und SIM-Karten im internen Netzwerk regelmäßig (z.B. alle 6 Monate) gleichzeitig ausgewechselt werden, um eine Identifikation durch Orts- oder Kommuniktationsmuster zu vermeiden.**
 
 
 Digitale Grundsicherheit
@@ -165,7 +166,9 @@ Bei genug Möglichkeiten dauert es zu lange, alle Schlüssel auszuprobieren (ein
 Weil sich Menschen riesige Schlüssel auch nicht merken können, benutzen Computer oft eine echt langsame Funktion, um den Schlüssel von einem Passwort abzuleiten.
 Das ist okay wenn jemand das Passwort ein- oder zweimal eingibt, aber erschwert es, alle möglichen Passwörter durchzuprobieren.
 Aber wenn dein Passwort *1312* oder *Revolution* oder so ist, kann es mit einer *Wörterbuchattacke* geknackt werden.
-Daher ist es am Besten, eines der folgenden Konzepte zu verwenden, und es mit *zufälligen Mustern* zu kombinieren.
+Eine Möglichkeit ist es, ein komplett zufälliges Passwort zu erzeugen ([howto](https://ssd.eff.org/en/node/23/#0)), auf Papier zu notieren, es sich zu merken und den Zettel nach einigen Tagen zu zerstören.
+
+Falls das zu kompliziert klingt oder du Angst hast, das Passwort nach einem Urlaub zu vergessen oder so, ist es am Besten, eines der folgenden Konzepte zu verwenden, und es mit *zufälligen Mustern* zu kombinieren.
 
 **Schema 1:** die ersten Buchstaben eines zufälligen Satzes zu verwenden (**D**ieser **S**icherheitsratgeber **i**st **1** **s**uper *%3* **P**asswort**!**)
 
@@ -214,11 +217,12 @@ Wenn der Computer für vertrauliche aktivistische Arbeit genutzt wird, kann [Tai
 
 Für hauptsächlich persönliche Nutzung sind die folgenden beiden Distributionen weniger auf Sicherheit angepasst, aber relativ einfach zu installieren, zu nutzen und zu aktualisieren:
 
-- *[Linux Mint](http://www.linuxmint.com/)* bietet eine der schmerzfreisten Wege, ein Open Source System mit vielen, wahrscheinlich bekannten, Anwendungen wie Firefox, VLC Player, LibreOffice etc. zu bekommen.
-Es gibt verschiedene Oberflächen, von denen *XFCE* schlicht und schnell ist, und auch auf älteren Geräten noch gut läuft, und *Cinnamon* ein wenig gehobener.
 - *[Ubuntu Linux](http://www.ubuntu.com/desktop)* ist die Basis für Linux Mint und hat eine Firma hinter sich, die versucht, eine möglichst benutzer\*innenfreundliche Linux-Variante zu schaffen.
 Es basiert selbst auf *[Debian](http://www.debian.org)*, einer der ältesten Community-Distributionen.
 Die Firma gibt die Entwicklungsrichtung vor, aber es gibt dennoch eine starke Community.
+- *[Linux Mint](http://www.linuxmint.com/)* bietet eine der schmerzfreisten Wege, ein Open Source System mit vielen, wahrscheinlich bekannten, Anwendungen wie Firefox, VLC Player, LibreOffice etc. zu bekommen.
+Allerdings gab es ein paar Diskussionen über ihre Sicherheitsrichtlinien, und du solltest im Update-Manager "Stabilität und Sicherheit optimieren" auswählen und regelmäßig *alle* Updates (auch Level 4) im Update-Manager auswählen, um auf der sicheren Seite zu sein.
+Es gibt verschiedene Oberflächen, von denen *XFCE* schlicht und schnell ist, und auch auf älteren Geräten noch gut läuft, und *Cinnamon* ein wenig gehobener.
 
 - *Installation*: Stell sicher, das alle deine wichtigen Daten auf einem *externen* Medium gespeichert ist (externe Festplatte oder USB-Stick) und versuche Unterstützung von einem Computergeek zu bekommen, falls möglich.
 Es ist möglich Linux und Windows auf dem Rechner zu installieren (Dualboot), aber gehe davon aus, **dass alles überschrieben werden kann**.
@@ -229,7 +233,7 @@ Festplattenverschlüsselung (Geheimhaltung)
 ------------------------------------------
 Verschlüssele deinen Computer!
 Alle weiteren Ratschläge für Software und Kommunikation bringen gar nichts, wenn dein Computer nicht sicher ist.
-**Die Verschlüsselung bringt nur was bei Offline-Angriffen, wenn die Polizei deinen Computer entsperrt mitnimmt, werden sie einfach deine Daten kopieren.**
+**Die Verschlüsselung bringt nur was bei Angriffen gegen ausgeschaltete Computer, wenn die Polizei deinen Computer entsperrt mitnimmt, werden sie einfach deine Daten kopieren.**
 Ein gesperrter oder schlafender Rechner mit vernünftigem Passwort ist besser als nichts, aber das Gerät sollte so oft wie möglich runtergefahren werden.
 **Wenn die Polizei an deiner Tür klopft, renne als erstes zu deinem Coputer und drücke den Power-Knopf, bis er ausgeht.**
 
@@ -271,7 +275,7 @@ Eine externe Festplatte oder eine sehr große Datei (ein "Container") werden ver
 - Anleitung: [Veracrypt](https://veracrypt.codeplex.com/releases) installieren und der [Anleitung](https://veracrypt.codeplex.com/wikipage?title=Beginner%27s%20Tutorial) folgen.
 
 ### Android and iOS
-- [Anleitung für Android](http://www.howtogeek.com/141953/how-to-encrypt-your-android-phone-and-why-you-might-want-to/)
+- **Android:** zu *Einstellungen -> Sicherheit* gehen und auf *Gerät verschlüsseln* drücken [ausführlichere Anleitung](http://www.howtogeek.com/141953/how-to-encrypt-your-android-phone-and-why-you-might-want-to/)
 
 ### Einschränkungen
 Dein Passwortfeld muss ja von irgendwo kommen und so gibt es immer Daten auf deinem Gerät, die nicht verschlüsselt sind und die manipuliert werden können (z.B. Ersetzen deines Linux-Passwortfelds mit einem, dass dein Passwort an die Polizei schickt).
@@ -402,8 +406,8 @@ Allerdings gibt es einige Einschränkungen:
 Einige Jabber-Clients unterstützen *OMEMO* als neuere Alternative zu OTR, welche auch Gruppenchats verschlüsseln kann und asynchrone Kommunikation unterstützt, ähnlich wie die Mobil-Messenger.
 Mit [Conversations](https://conversations.im) for Android und [ChatSecure](https://chatsecure.org/) für iOS kann Jabber eine Alternative zu diesen Messengern sein, die sich zentraler Kontrolle entzieht.
 Bedauerlicherweise unterstützen nicht alle Jabber-Server die Speicherung von Nachrichten an dich, wenn du offline bist (eine Übersicht gibt es [hier](https://gultsch.de/compliance_ranked.html)).
-Auch ist die Chatsoftware für Laptops und Computer ein bisschen langsam damit, OMEMO zu unterstützen.
-Als eine OMEMO-fähige Alternative zu Pidgin (welches üblicherweise in den Jabber-Anleitungen vorkommt) empfehlen wir die Installation von [Gajim](https://gajim.org/).
+Auch ist die Chatsoftware für Laptops und Computer ein bisschen langsam damit, OMEMO zu unterstützen, weswegen wir bis auf Weiteres empfehlen, bei OTR zu bleiben.
+Als eine Alternative zu Pidgin (welches üblicherweise in den Jabber-Anleitungen vorkommt) empfehlen wir die Installation von [Gajim](https://gajim.org/).
 
 [einfachJabber.de](http://www.einfachjabber.de/) eine ausführliche deutschsprachige Einführung und Anleitungen für alle möglichen Geräte und Systeme. 
 Englische Toturials findest du im EFF Surveillance Self-Defence guide ([Linux](https://ssd.eff.org/en/module/how-use-otr-linux), [Mac OS](https://ssd.eff.org/en/module/how-use-tor-mac-os-x), [Windows](https://ssd.eff.org/en/module/how-use-tor-windows)).
