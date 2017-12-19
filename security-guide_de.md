@@ -202,7 +202,7 @@ Open Source - Varianten von Android (wie *[Replicant](http://www.replicant.us/)*
 Sie erfordern üblicherweise das Entsperren des *boot loaders* des Gerätes, damit es überhaupt möglich ist, ein alternatives Android darauf zu installieren, was dann z.B. die Polizei auch tun könnte, wenn sie für ein paar Stunden Zugriff auf dein Gerät hat ([Diskussion](https://www.reddit.com/r/LineageOS/comments/66o5iv/questions_about_security/)).
 Wo die alternativen Android-Varianten manchmal Sicherheitsupdates für alte Geräte anbieten, wo der Hersteller das nicht tut, sind alternative Android *ROMs* noch dazu in Wirklichkeit oft schlecht mit Updates versorgt (Diskussion [1](https://www.reddit.com/r/Android/comments/6g9imm/the_issue_of_security_in_lineageos/), [2](https://security.stackexchange.com/questions/162798/is-lineageos-more-secure-than-android-vanilla); [Übersicht für LinageOS](https://cve.lineageos.org/devices)).
 
-Falls nötig, ist unser Rat, am besten ein Tablet **ohne SIM-Karten-Slot** zu benutzen (weil es nicht aus dem Mobilfunknetz kontrolliert werden kann), oder falls nötig ein Smartphone, welches von Copperhead OS, oder von Lineage OS gut unterstützt wird.
+Falls nötig, ist unser Rat, am besten ein Tablet **ohne SIM-Karten-Slot** zu benutzen (weil es nicht aus dem Mobilfunknetz kontrolliert werden kann), oder falls nötig ein Smartphone, idealerweise eins welches von Copperhead OS, oder zumindest gut von Lineage OS unterstützt wird.
 
 ### Laptops and Computer
 So viel wie möglich freie Open Source - Software auf einem Laptop oder Computer laufen zu lassen, gibt dir eine Menge Kontrolle zurück.
@@ -448,5 +448,5 @@ TL;DR:
 
 Beispiel-Setups
 ---------------
- * **Laptop / Desktopcomputer:** Tails für ernsthafte Anonymität, ein verschlüsseltes Linux Mint mit TOR Browser, Thunderbird+Enigmail für verschlüsselte Email, Veracrypt um externe Medien zu verschlüsseln, Gaijim für Jabber mit OMEMO-Verschlüsselung, Signal Desktop falls nötig.
- * **Wenn's sein muss, Smartphone für persönliche Nutzung:** ein gut von Copperhead OS oder Lineage OS unterstütztes Android-Smartphone mit verschlüsselten Daten, Orbot für TOR, Conversations für Jabber mit OMEMO falls nötig und Signal als Messenger app.
+ * **Laptop / Desktopcomputer:** Tails für ernsthafte Anonymität, ein verschlüsseltes Linux Mint mit TOR Browser, Thunderbird+Enigmail für verschlüsselte Email, Veracrypt um externe Medien zu verschlüsseln, Gaijim für Jabber mit OTR-Verschlüsselung, Signal Desktop falls nötig.
+ * **Wenn's sein muss, Smartphone für persönliche Nutzung:** indealerweise ein von Copperhead OS oder zumindest gut von Lineage OS unterstütztes Android-Smartphone mit verschlüsselten Daten, Orbot für TOR, Conversations für Jabber mit OMEMO falls nötig und Signal als Messenger app.
